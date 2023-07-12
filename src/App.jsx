@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Test from './Components/Test'
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+<Test/>
+</div>
   )
 }
 

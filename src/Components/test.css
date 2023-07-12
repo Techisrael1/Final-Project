@@ -1,0 +1,83 @@
+.screen {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: inherit;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+}
+
+.left {
+    color: white;
+    background-color: #1d1160;
+    width: 35%;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.left h4 {
+    font-size: 15px;
+    color: gray;
+}
+
+.left p {
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+    color: gray;
+
+}
+
+.right {
+    width: 65%;
+    padding: 20px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right-cht {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-cht p {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+.challenge {
+    font-size: 10px;
+    color: gray;
+    text-align: end;
+    margin-right: 5px;
+    margin-top: -10px;
+}
+
+.right button {
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1d1160;
+    color: gray;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.bg-blue {
+    background-color: #1d1160;
+}
